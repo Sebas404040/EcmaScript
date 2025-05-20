@@ -35,3 +35,140 @@ strict mode
 Métodos de Array como forEach, map, filter
 
 Object.create()
+🧠 ECMAScript 6 / ES2015 (2015)
+Una de las actualizaciones más grandes.
+
+Características clave:
+
+let y const
+
+Funciones flecha
+
+Clases
+
+Template literals
+
+Módulos (import / export)
+
+Promesas
+
+Destructuración
+
+Parámetros por defecto
+
+Operador spread
+
+Ejemplo: (imagen)
+
+⚙️ ECMAScript 2016 (ES7)
+Características:
+
+Array.prototype.includes()
+
+Operador de exponenciación **
+
+Ejemplo:(imagen)
+
+🔄 ECMAScript 2017 (ES8)
+Características:
+
+async/await
+
+Object.entries(), Object.values()
+
+Padding de strings (padStart, padEnd)
+
+Ejemplo:(imagen)
+
+🧩 ECMAScript 2018 (ES9)
+Características:
+
+Rest/Spread en objetos
+
+Promise.finally()
+
+Expresiones RegExp mejoradas
+
+Ejemplo:(imagen)
+
+🧵 ECMAScript 2019 (ES10)
+Características:
+
+Array.prototype.flat(), flatMap()
+
+Object.fromEntries()
+
+trimStart(), trimEnd()
+
+Ejemplo:(imagen)
+
+📐 ECMAScript 2020 (ES11)
+Características:
+
+nullish coalescing operator (??)
+
+optional chaining (?.)
+
+Promise.allSettled()
+
+globalThis
+
+Ejemplo:(imagen)
+
+🧭 ECMAScript 2021 (ES12)
+Características:
+
+Logical assignment operators (&&=, ||=, ??=)
+
+String.prototype.replaceAll()
+
+Separadores numéricos (_)
+
+WeakRefs
+
+Ejemplo:(imagen)
+
+📐 ECMAScript 2022 (ES13)
+Características:
+
+class campos privados
+
+static bloques
+
+Mejoras en top-level await
+
+Ejemplo:(imagen)
+
+🧪 ECMAScript 2023 (ES14)
+Características:
+
+.findLast() y .findLastIndex()
+
+Symbol como claves privadas
+
+Mejoras en Array y TypedArray
+
+Ejemplo:(imagen)
+
+🧭 ECMAScript 2024 (ES15 - Propuesta en proceso)
+Características en discusión:
+
+Set methods: union(), intersection(), etc.
+
+Observable como nuevo tipo de dato reactivo.
+
+Pattern Matching (aún en desarrollo)
+
+🧮 Diferencias Notorias entre Versiones
+Versión	Cambio Clave	Diferencia Notoria
+ES5	strict mode, métodos array	Mejora estructura y errores
+ES6	let, const, clases, módulos	Cambio de paradigma moderno
+ES8+	async/await	Código asíncrono más limpio
+ES10+	Spread, flat, operadores lógicos	Mayor expresividad y legibilidad
+
+✅ Conclusión
+ECMAScript es el estándar que define JavaScript.
+
+Cada versión agrega nuevas herramientas para mejorar el desarrollo.
+
+Para usar nuevas versiones: verifica compatibilidad o transpila con herramientas modernas.

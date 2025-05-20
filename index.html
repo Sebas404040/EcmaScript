@@ -1,23 +1,262 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EcmaScript</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
+
 <body>
     <nav>
         <div>
             <img src="images/images.png" alt="logo_ecmascript" class="logo">
-            <span>EcmaScript</span>
         </div>
-        <div>
-            <span>Que es?</span><hr>
-            <span>Versiones</span><hr>
-            <span>¿Como utilizar EcmaScript?</span><hr>
-            <span>Diferencias</span>
+        <div class="nav_links">
+            <span><a href="#quees">Que es?</a></span>
+            <hr>
+            <span><a href="#comoutilizar">Versiones</a></span>
+            <hr>
+            <span><a href="#versiones">¿Como utilizar EcmaScript?</a></span>
+            <hr>
+            <span><a href="#diferencias">Diferencias</a></span>
         </div>
     </nav>
+    <main>
+        <section>
+            <div>
+                <h2 id="quees">¿Que es EcmaScript</h2>
+                <p>
+                    ECMAScript (ES) es un estándar de lenguaje de programación creado por ECMA International, que define
+                    cómo debe funcionar JavaScript.
+                    Especifica la sintaxis, tipos, estructuras, manejo de errores, objetos, y más.
+                    Fue creado para unificar el comportamiento de JavaScript entre diferentes navegadores.
+                    Cada navegador implementa este estándar a través de su motor de JavaScript (por ejemplo, V8 en
+                    Chrome).
+                    ECMAScript no es un lenguaje por sí mismo, pero JavaScript es su implementación más popular.
+                </p>
+            </div>
+        </section>
+        <section>
+            <div>
+                <h2 id="comoutilizar">🧭 ¿Cómo utilizar ECMAScript?</h2>
+                <p>
+                    No necesitas hacer nada especial para "usar ECMAScript", ya que todo código JavaScript moderno sigue
+                    alguna versión de ECMAScript.
+                    Sin embargo, para utilizar nuevas funcionalidades:
+                    Asegúrate de que el navegador o entorno de ejecución (Node.js) soporta la versión ECMAScript
+                    correspondiente.
+                    Puedes usar herramientas como Babel o TypeScript para transpilar código moderno a versiones
+                    anteriores compatibles.
+                </p>
+            </div>
+        </section>
+        <section>
+            <h2 id="versiones">📅 Versiones de ECMAScript y sus funcionalidades clave</h2>
+            <p>
+                A continuación, un resumen de las versiones más importantes de ECMAScript, sus características clave y
+                ejemplos de
+                código:
+            </p>
+            <div class="dos_columnas">
+                <h3>🌟 ECMAScript 1 (1997) - Versión inicial
+                    Primera versión estándar.</h3>
+                <p>Soporte básico para variables, tipos, funciones, etc. <br>
+
+                    ⚠️ Hoy en día, esta versión es solo histórica.</p>
+            </div> <hr>
+            <div class="dos_columnas">
+                <h3>🚀 ECMAScript 5 (2009)</h3>
+                <p>
+                    <strong>Características importantes:</strong> <br><br>
+                    strict mode
+                    Métodos de Array como forEach, map, filter.
+                </p>
+                <img src="images/ECMA5.png" alt="ECMA5" class="ECMA_images">
+            </div> <hr>
+            <div class="dos_columnas">
+                <h3>🧠 ECMAScript 6 / ES2015 (2015)</h3>
+                <ul>
+                    <li>Una de las actualizaciones más grandes.</li>
+
+                    <li>Características clave:</li>
+
+                    <li>let y const</li>
+
+                    <li>Funciones flecha</li>
+
+                    <li>Clases</li>
+
+                    <li>Template literals</li>
+
+                    <li>Módulos (import / export)</li>
+
+                    <li>Promesas</li>
+
+                    <li>Destructuración</li>
+
+                    <li>Parámetros por defecto</li>
+
+                    <li>Operador spread</li>
+                </ul>
+                <img src="images/ECMA6.png" alt="ECMA5" class="ECMA_images">
+            </div> <hr>
+            <div class="dos_columnas">
+                <h3>⚙️ ECMAScript 2016 (ES7)</h3>
+                <p>
+                    <strong>Características:</strong> <br><br>
+                    <ul>
+                        <li>Array.prototype.includes()</li>
+
+                        <li>Operador de exponenciación **</li>
+                    </ul>
+                    <img src="images/ECMA7.png" alt="ECMA5" class="ECMA_images">
+                </p>
+            </div> <hr>
+            <div class="dos_columnas">
+                <h3>🔄 ECMAScript 2017 (ES8)</h3>
+                <p>
+                    <strong>Características:</strong> <br><br>
+                    <ul>
+                        <li>async/await</li>
+
+                        <li>Object.entries(), Object.values()</li>
+
+                        <li>Padding de strings (padStart, padEnd)</li>
+                    </ul>
+                    <img src="images/ECMA8.png" alt="ECMA5" class="ECMA_images">
+                </p>
+            </div> <hr>
+            <div class="dos_columnas">
+                <h3>🧩 ECMAScript 2018 (ES9)</h3>
+                <p>
+                    <strong>Características:</strong> <br><br>
+                    <ul>
+                        <li>Rest/Spread en objetos</li>
+
+                        <li>Promise.finally()</li>
+
+                        <li>Expresiones RegExp mejoradas</li>
+                    </ul>
+                    <img src="images/ECMA9.png" alt="ECMA5" class="ECMA_images">
+                </p>
+            </div> <hr>
+            <div class="dos_columnas">
+                <h3>🧵 ECMAScript 2019 (ES10)</h3>
+                <p>
+                    <strong>Características:</strong> <br><br>
+                    <ul>
+                        <li>Array.prototype.flat(), flatMap()</li>
+
+                        <li>Object.fromEntries()</li>
+
+                        <li>trimStart(), trimEnd()</li>
+                    </ul>
+                    <img src="images/ECMA10.png" alt="ECMA5" class="ECMA_images">
+                </p>
+            </div> <hr>
+            <div class="dos_columnas">
+                <h3>📐 ECMAScript 2020 (ES11)</h3>
+                <p>
+                    <strong>Características:</strong> <br><br>
+                    <ul>
+                        <li>nullish coalescing operator (??)</li>
+
+                        <li>optional chaining (?.)</li>
+
+                        <li>Promise.allSettled()</li>
+                        <li>globalThis</li>
+                    </ul>
+                    <img src="images/ECMA11.png" alt="ECMA5" class="ECMA_images">
+                </p>
+            </div> <hr>
+            <div class="dos_columnas">
+                <h3>🧭 ECMAScript 2021 (ES12)</h3>
+                <p>
+                    <strong>Características:</strong> <br><br>
+                    <ul>
+                        <li>Logical assignment operators (&&=, ||=, ??=)</li>
+
+                        <li>String.prototype.replaceAll()</li>
+
+                        <li>Separadores numéricos (_)</li>
+                        <li>WeakRefs</li>
+                    </ul>
+                    <img src="images/ECMA12.png" alt="ECMA5" class="ECMA_images">
+                </p>
+            </div> <hr>
+            <div class="dos_columnas">
+                <h3>📐 ECMAScript 2022 (ES13)</h3>
+                <p>
+                    <strong>Características:</strong> <br><br>
+                    <ul>
+                        <li>class campos privados</li>
+
+                        <li>static bloques</li>
+
+                        <li>Mejoras en top-level await</li>
+                    </ul>
+                    <img src="images/ECMA13.png" alt="ECMA5" class="ECMA_images">
+                </p>
+            </div> <hr>
+            <div class="dos_columnas">
+                <h3>🧪 ECMAScript 2023 (ES14)</h3>
+                <p>
+                    <strong>Características:</strong> <br><br>
+                    <ul>
+                        <li>.findLast() y .findLastIndex()</li>
+
+                        <li>Symbol como claves privadas</li>
+
+                        <li>Mejoras en Array y TypedArray</li>
+                    </ul>
+                    <img src="images/ECMA14.png" alt="ECMA5" class="ECMA_images">
+                </p>
+            </div> <hr>
+        </section>
+        <section>
+            <h2 id="diferencias">🧮 Diferencias Notorias entre Versiones</h2>
+            <p>
+                
+            </p>
+        </section>
+    </main>
 </body>
 </html>
+
+
+<div class="table-container">
+    <table>
+      <thead>
+        <tr>
+          <th>Versión</th>
+          <th>Diferencias principales</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>ES1 (1997)</td><td>Primera versión oficial. Establece la base del lenguaje JavaScript.</td></tr>
+        <tr><td>ES2 (1998)</td><td>Ajustes editoriales para alineación con estándares internacionales.</td></tr>
+        <tr><td>ES3 (1999)</td><td>Expresiones regulares, manejo de errores con try/catch, mejoras en cadenas y estructuras de control.</td></tr>
+        <tr><td>ES4</td><td>Propuesta cancelada. Pretendía incluir clases, interfaces y tipos estáticos.</td></tr>
+        <tr><td>ES5 (2009)</td><td>"use strict", métodos de array, soporte para JSON, control de propiedades de objetos.</td></tr>
+        <tr><td>ES6 / ES2015</td><td>let, const, arrow functions, clases, módulos, template strings, desestructuración, promesas.</td></tr>
+        <tr><td>ES7 / ES2016</td><td>Operador de exponenciación (**), método includes() en arrays.</td></tr>
+        <tr><td>ES8 / ES2017</td><td>Async/await, Object.values(), padStart(), padEnd().</td></tr>
+        <tr><td>ES9 / ES2018</td><td>Spread/rest en objetos, for await...of, Promise.finally().</td></tr>
+        <tr><td>ES10 / ES2019</td><td>Array.flat(), flatMap(), Object.fromEntries(), trimStart/trimEnd.</td></tr>
+        <tr><td>ES11 / ES2020</td><td>BigInt, encadenamiento opcional (?.), coalescencia nula (??), Promise.allSettled().</td></tr>
+        <tr><td>ES12 / ES2021</td><td>Operadores lógicos de asignación, separadores numéricos, replaceAll().</td></tr>
+        <tr><td>ES13 / ES2022</td><td>Campos privados en clases, métodos estáticos privados, Error.cause.</td></tr>
+        <tr><td>ES14 / ES2023</td><td>findLast(), findLastIndex(), mejoras en Symbol y clases privadas.</td></tr>
+        <tr><td>ES15 / ES2024</td><td>Mejoras de rendimiento, propuestas como do expressions y await avanzado (en evolución).</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+</body>
+</html>
+
+
+CSS:
+

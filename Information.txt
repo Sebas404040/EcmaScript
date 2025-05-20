@@ -172,3 +172,102 @@ ECMAScript es el estándar que define JavaScript.
 Cada versión agrega nuevas herramientas para mejorar el desarrollo.
 
 Para usar nuevas versiones: verifica compatibilidad o transpila con herramientas modernas.
+
+
+COD:
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Diferencias ECMAScript</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <h1>Diferencias entre versiones de ECMAScript</h1>
+
+  <div class="table-container">
+    <table>
+      <thead>
+        <tr>
+          <th>Versión</th>
+          <th>Diferencias principales</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>ES1 (1997)</td><td>Primera versión oficial. Establece la base del lenguaje JavaScript.</td></tr>
+        <tr><td>ES2 (1998)</td><td>Ajustes editoriales para alineación con estándares internacionales.</td></tr>
+        <tr><td>ES3 (1999)</td><td>Expresiones regulares, manejo de errores con try/catch, mejoras en cadenas y estructuras de control.</td></tr>
+        <tr><td>ES4</td><td>Propuesta cancelada. Pretendía incluir clases, interfaces y tipos estáticos.</td></tr>
+        <tr><td>ES5 (2009)</td><td>"use strict", métodos de array, soporte para JSON, control de propiedades de objetos.</td></tr>
+        <tr><td>ES6 / ES2015</td><td>let, const, arrow functions, clases, módulos, template strings, desestructuración, promesas.</td></tr>
+        <tr><td>ES7 / ES2016</td><td>Operador de exponenciación (**), método includes() en arrays.</td></tr>
+        <tr><td>ES8 / ES2017</td><td>Async/await, Object.values(), padStart(), padEnd().</td></tr>
+        <tr><td>ES9 / ES2018</td><td>Spread/rest en objetos, for await...of, Promise.finally().</td></tr>
+        <tr><td>ES10 / ES2019</td><td>Array.flat(), flatMap(), Object.fromEntries(), trimStart/trimEnd.</td></tr>
+        <tr><td>ES11 / ES2020</td><td>BigInt, encadenamiento opcional (?.), coalescencia nula (??), Promise.allSettled().</td></tr>
+        <tr><td>ES12 / ES2021</td><td>Operadores lógicos de asignación, separadores numéricos, replaceAll().</td></tr>
+        <tr><td>ES13 / ES2022</td><td>Campos privados en clases, métodos estáticos privados, Error.cause.</td></tr>
+        <tr><td>ES14 / ES2023</td><td>findLast(), findLastIndex(), mejoras en Symbol y clases privadas.</td></tr>
+        <tr><td>ES15 / ES2024</td><td>Mejoras de rendimiento, propuestas como do expressions y await avanzado (en evolución).</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+</body>
+</html>
+
+
+CSS:
+
+/* styles.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: #f9f9f9;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+th, td {
+  padding: 16px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #007BFF;
+  color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+@media (max-width: 600px) {
+  th, td {
+    padding: 12px;
+    font-size: 14px;
+  }
+}
